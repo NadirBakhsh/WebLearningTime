@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link href="layout.css" rel="stylesheet" type="text/css" />
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDxROQDgecweKdt6NiOijXyeacaz7oJArk",
+    authDomain: "practicfb-bac7c.firebaseapp.com",
+    databaseURL: "https://practicfb-bac7c.firebaseio.com",
+    projectId: "practicfb-bac7c",
+    storageBucket: "practicfb-bac7c.appspot.com",
+    messagingSenderId: "195645685376"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+
+    <header>
+            <div class="logo"><img src="logo fb.png"</div>
+            <form class="loginform">
+                <label>Email or phone<br/>
+                        <input type="text" name="email"/>
+                </label>
+                 <label>Passord<br/>
+                        <input type="passwaord" name="pass"/>
+                 </label> 
+                    <input id="login" type="button" value="Log in">                   
+            </form>
+            <a href="#" id="forget">Forgotten account?</a>
+    </header>
+<div class="signup">
+            <p id="helps">Facebook helps you connect and share with the people in your life.</p>
+        <img src="facebook-map.png"/>
+        
+        <form class="Registration">
+            <h1>Create an account</h1>
+                <p>It's free and always will be.</p> 
+                
+                <input id="fname" type="text" placeholder="First Name"/>
+                <input id="lname" type="text" placeholder="Last Name"/>
+                <input id="me" type="text" placeholder="Mobile number or email address"/>
+                <input id="me" type="text" placeholder="New Password"/>
+
+                <label id="bd">Brithday</label>
+                
+                <select id="day">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                </select>
+                <select id="date">
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>July</option>
+                </select>
+                <select id="year">
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                </select>
+     <a href="#">Why do I need to provide my date of birth?</a>
+
+
+     <p><input  id="gander" type="radio" name="gander" value="female"/>Female
+     <input  id="gander" type="radio" name="gander" value="Male"/>Male
+    </p>
+    
+    <p id="discrib">By clicking Create Account, you agree to our <a href="#">Terms</a> and confirm
+         that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use
+          Policy</a>. You may receive SMS message notifications from 
+          Facebook and can opt out at any time.</p>
+
+          <button></button>
+    </form>
+</div>
+
+    
+</body>
+</html>

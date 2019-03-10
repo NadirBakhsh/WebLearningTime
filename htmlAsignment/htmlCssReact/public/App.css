@@ -1,0 +1,230 @@
+body{
+  margin: auto;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(215, 216, 216, 0.473);
+  font-family: CircularStd-Book;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+}
+.head {
+  color: rgb(3, 63, 97);
+}
+*{
+  position: static;
+}
+.App-logo {
+  animation: App-logo-spin infinite 25s linear;
+  height: 300px;
+  position: absolute;
+  align-self: auto;
+  z-index: -20;
+  opacity: 0.3;
+}
+h1 {
+  letter-spacing: 1px;
+  margin-left: 25px;
+}
+.marq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App-header {
+  position: fixed;
+  width: 100%;
+  background-color: #222;
+  height: 60px;
+  /* padding: 20px; */
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: CircularStd-Black;
+  z-index: 120;
+  background-image: radial-gradient(rgba(252, 9, 9, 0.308),rgb(7, 7, 7));
+
+}
+.App-h {
+  visibility: hidden;
+  width: 100%;
+  height: 60px;
+}
+.sub {
+  font-family: lato-light;
+  color: #222;
+}
+.header {
+  font-size: 25px;
+  font-family: CircularStd-Bold;
+  background-image: linear-gradient(rgba(7, 17, 160, 0.432), rgba(5, 117, 74, 0.432));
+  background-color: rgba(6, 179, 170, 0.473);
+  height: 350px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.main{
+  line-height: 1.5;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.intro{
+  display: flex;
+  min-height: 150px;
+  max-height: auto;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weDo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 193, 209);
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 30%;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  font-family: Lato-ThinItalic;
+}
+.contactUs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(53, 65, 73);
+  padding: 0px 0px 0px 20px ;
+  color: #fff;
+}
+.contactDiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+span, a{
+  color: #fff;
+  margin-left: 2%; 
+  text-decoration: none;
+}
+.do{
+  display: flex;
+  /* width: 33%; */
+  /* background-color: indigo; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.circleImg{
+  max-width:170px;
+  max-height:170px;
+  width: auto;
+  height: auto;
+}
+.circle{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width:200px;
+  height:200px;
+  border-radius: 1000px;
+  overflow: hidden;
+  /* height: auto; */
+  background-color: rgba(43, 57, 66, 0.2);
+}
+.line{
+  height: 5px;
+  background-color: rgb(53, 65, 73);
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  }
+.picsDo{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+@font-face {
+  font-family: CircularStd-Black;
+  src: url(fonts/CircularStd-Black.otf);
+}
+@font-face {
+  font-family: CircularStd-BlackItalic;
+  src: url(fonts/CircularStd-BlackItalic.otf);
+}
+@font-face {
+  font-family: CircularStd-Bold;
+  src: url(fonts/CircularStd-Bold.otf);
+}
+@font-face {
+  font-family: CircularStd-BoldItalic;
+  src: url(fonts/CircularStd-BoldItalic.otf);
+}
+@font-face {
+  font-family: CircularStd-Book;
+  src: url(fonts/CircularStd-Book.otf);
+}
+@font-face {
+  font-family: CircularStd-BookItalic;
+  src: url(fonts/CircularStd-BookItalic.otf);
+}
+@font-face {
+  font-family: CircularStd-Medium;
+  src: url(fonts/CircularStd-Medium.otf);
+}
+@font-face {
+  font-family: CircularStd-MediumItalic;
+  src: url(fonts/CircularStd-MediumItalic.otf);
+}
+@font-face {
+  font-family: lato-black;
+  src: url(fonts/lato-black.ttf);
+}
+@font-face {
+  font-family: lato-bold;
+  src: url(fonts/lato-bold.ttf);
+}
+@font-face {
+  font-family: Lato-Heavy;
+  src: url(fonts/Lato-Heavy.ttf);
+}
+@font-face {
+  font-family: lato-light;
+  src: url(fonts/lato-light.ttf);
+}
+@font-face {
+  font-family: lato-regular;
+  src: url(fonts/lato-regular.ttf);
+}
+@font-face {
+  font-family: Lato-ThinItalic;
+  src: url(fonts/Lato-ThinItalic.ttf);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

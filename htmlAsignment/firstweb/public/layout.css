@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+Body{
+	background-color:rgba(133,214,239,1.00);
+	margin:0px auto;}
+	
+div.container{
+	padding:20px;}
+	
+div#logo>img{
+	width:500px;
+	margin:50px;
+	}
+
+#logo+h2{
+	margin-left:544px;
+	margin-top:-75px;
+	color:rgba(162,137,138,1.00);}
+	
+h2{
+	margin-left:540px;
+	margin-top:-70px;
+	font-size:30px;
+	color:rgba(179,146,146,1.00);
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;}
+	
+h2+p{
+	font-size:20px;
+	margin-left:50px;
+	font-weight:bold;
+	}
+	
+
+#Testimonials{
+	width:1300px;
+	height:250px;
+	position:absolute;
+	background:rgba(207,183,183,1.00);}
+	
+#Testimonials>h1{
+	color:rgba(68,103,213,1.00);
+	margin-top:30px;}
+	
+#Testimonials p{
+	font-weight:bold;
+	font-size:18px;}
+
+#main{
+	width:1300px;
+	height:800px;
+	background:rgba(255,255,255,1.00);
+	position:absolute;
+	margin-top:280px;}
+	
+#main h1{
+	text-indent:2px;
+	margin-top:-1px;
+	font-size:36px;
+	color:rgba(2,52,191,1.00);}
+	
+#main h1+img{
+	width:300px;
+	height:auto;
+	margin-top:-10px;}
+#main p{
+	font-weight:bold;}
+		
+#Testimonials img+p{
+	font-weight:bold;}
+		
+p>i{
+	color:rgba(45,240,79,1.00);}
+	
+#main a{
+	text-decoration:none;
+	color:rgba(0,0,0,1.00);
+	border:1px solid rgba(0,0,0,1.00);
+	padding:2px;
+	border-radius:5px;}
+	
+#main footer{
+	margin-top:10px;
+	font-weight:bold;}

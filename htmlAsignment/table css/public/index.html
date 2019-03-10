@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC4FLuJoTbwlkqdhHgBx9Fdu-J0Kh7s34U",
+    authDomain: "tabledesgin.firebaseapp.com",
+    databaseURL: "https://tabledesgin.firebaseio.com",
+    projectId: "tabledesgin",
+    storageBucket: "",
+    messagingSenderId: "481996908811"
+  };
+  firebase.initializeApp(config);
+
+</script>
+
+    <style>
+        table{
+            margin: auto;
+            width: auto;
+            height: 600px;
+        }
+
+        tr td.center{
+            text-align: center;
+        }
+
+       table img#cross{
+          width: 15px;
+          height: 15px; 
+          
+       }
+
+       .theading-top{
+           padding: 15px;
+           background-color: green;
+           border-radius: 10px 10px 0 0;
+           color: white;
+           text-align: center;
+           font-weight: bold;
+       }
+
+.theading-bot{
+           padding: 15px;
+           background-color: green;
+           border-radius: 0px 0px 5px 5px;
+           color: white;
+           text-align: center;
+           font-weight: bold;
+       }
+
+       #blue{
+           background-color: plum;
+       }
+
+        #gray{
+           background-color: gray;
+       }
+       #red{
+           background-color: red;
+       }
+       #pink{
+           background-color:pink;
+       }
+       #green{
+           background-color: green;
+       }
+
+        table {
+            border-spacing: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tr.gray{
+            background-color: lightpink;
+        }
+
+        td.plain{
+            padding: 20px  0 20px 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        td p {
+            font-size: 10px;
+            margin: 0 0 0 10px;
+        }
+
+        tr td{
+            padding: 5px;
+        }
+
+         #cross{
+            width: 20px;
+            height: 20px;
+            margin: 3px 0 0 25px;
+            
+        }
+        
+    </style>
+
+</head>
+<body>
+
+
+    <table>
+        <tr>            
+            <td class="empty"></td>
+            <td id="blue" class="theading-top">Stater</td>
+            <td id="gray" class="theading-top">Basic</td>
+            <td id="red" class="theading-top">Professicnal</td>
+            <td id="pink" class="theading-top">Business</td>
+            <td id="green" class="theading-top">Premier</td>
+        </tr>
+        <tr class="gray">
+            <td >Choose a plan</td>
+            <td class="plain">$9 <p>/month</p></td>
+            <td class="plain">$19 <p>/month</p></td>
+            <td class="plain">$29 <p>/month</p></td>
+            <td class="plain">$39 <p>/month</p></td>
+            <td class="plain">$9 <p>/month</p></td>
+        </tr>
+        <tr>
+            <td>Disk Storage</td>
+            <td class="center">10 GB</td>
+            <td class="center">50 GB</td>
+            <td class="center">100 GB</td>
+            <td class="center">500 GB</td>
+            <td class="center">Unlimited</td>
+        </tr>
+        <tr class="gray">
+                <td>Domain Name</td>
+                <td class="center">1</td>
+                <td class="center">10</td>
+                <td class="center">unlimited</td>
+                <td class="center">unlimited</td>
+                <td class="center">unlimited</td>
+            </tr>
+            <tr>
+                    <td>Sub Domain</td>
+                    <td class="center">10</td>
+                    <td class="center">50</td>
+                    <td class="center">unlimited</td>
+                    <td class="center">unlimited</td>
+                    <td class="center">unlimited</td>
+            </tr>
+            <tr class="gray">
+                <td>Site Builder</td>
+                <td ><img id="cross" src="img/cross.png"></td>
+                <td><img id="cross" src="img/cross.png"></td>
+                <td><img id="cross" src="img/tick.png"></td>
+                <td><img id="cross" src="img/tick.png"></td>
+                <td><img id="cross" src="img/tick.png"></td>
+            </tr>
+            <tr>
+                <td>Backup</td>
+                <td><img id="cross" src="img/cross.png"></td>
+                <td><img id="cross" src="img/tick.png"></td>
+                <td><img id="cross" src="img/tick.png"></td>
+                <td><img id="cross" src="img/tick.png"></t>
+                <td><img id="cross" src="img/tick.png"></td>                
+            </tr>
+            <tr class="gray">
+                    <td>CPANEL</td>
+                    <td><img id="cross" src="img/tick.png"></td>
+                    <td><img id="cross" src="img/tick.png"></td>
+                    <td><img id="cross" src="img/tick.png"></td>
+                    <td><img id="cross" src="img/tick.png"></t>
+                    <td><img id="cross" src="img/tick.png"></td>                
+                </tr>
+                <tr>
+                    <td>E-mai Account</td>
+                    <td class="center">10</td>
+                    <td class="center">50</td>
+                    <td class="center">unlimited</td>
+                    <td class="center">unlimited</td>
+                    <td class="center">unlimited</td>
+                </tr>
+                <tr class="gray">
+                        <td>MySql DataBase</td>
+                        <td class="center">1 x 2GB</td>
+                        <td class="center">5 x 2GB</td>
+                        <td class="center">10 x 2GB</td>
+                        <td class="center">50 x 2GB</td>
+                        <td class="center">unlimited</td>
+                    </tr>
+                    <tr>
+                            <td>Setup Free</td>
+                            <td><img id="cross" src="img/cross.png"></td>
+                            <td><img id="cross" src="img/cross.png"></td>
+                            <td><img id="cross" src="img/cross.png"></td>
+                            <td><img id="cross" src="img/cross.png"></td>
+                            <td><img id="cross" src="img/cross.png"></td>
+                            
+                    </tr >
+                    <tr class="gray">
+                            <td>24/7 support</td>
+                            <td><img id="cross" src="img/tick.png"></td>
+                            <td><img id="cross" src="img/tick.png"></td>
+                            <td><img id="cross" src="img/tick.png"></td>
+                            <td><img id="cross" src="img/tick.png"></t>
+                            <td><img id="cross" src="img/tick.png"></td>                
+                        </tr>
+                        <tr>
+                                <td>30-days Money Back</td>
+                                <td><img id="cross" src="img/tick.png"></td>
+                                <td><img id="cross" src="img/tick.png"></td>
+                                <td><img id="cross" src="img/tick.png"></td>
+                                <td><img id="cross" src="img/tick.png"></t>
+                                <td><img id="cross" src="img/tick.png"></td>                
+                            </tr>
+                            <tr class="gray">
+                                    <td>Templates</td>
+                                    <td><img id="cross" src="img/cross.png"></td>
+                                    <td><img id="cross" src="img/cross.png"></td>
+                                    <td><img id="cross" src="img/tick.png"></td>
+                                    <td><img id="cross" src="img/tick.png"></td>
+                                    <td><img id="cross" src="img/tick.png"></td>
+                                </tr>
+                                <tr>            
+                                        <td></td>
+                                        <td class="theading-bot">Sign Up</td>
+                                        <td class="theading-bot">Sign Up</td>
+                                        <td class="theading-bot">Sign Up</td>
+                                        <td class="theading-bot">Sign Up</td>
+                                        <td class="theading-bot">Sign Up</td>
+                                    </tr>
+                                
+                        
+                    
+    </table>
+
+    
+</body>
+</html>

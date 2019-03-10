@@ -1,0 +1,134 @@
+/* CSS Document */
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+.mainbox
+{
+	width:1024px;
+	height:auto;
+	margin:auto;
+	padding:0px;
+	background:#222222;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#BDBDBD;
+	font:Arial, Helvetica, sans-serif;
+}
+
+h3{
+	color:#000;
+	font:Arial, Helvetica, sans-serif;
+}
+
+#nav{
+	background:#F00;
+	height:50px;
+	width:inherit;
+	margin-top:20px;
+	border-radius:10px;
+}
+
+#nav ul li{
+	float:left;
+	margin:15px;
+	margin-left:20px;
+	text-decoration:none;
+	list-style:none;
+	color:#FFF;
+}
+
+a{
+	padding:10px;
+	border-radius:10px;
+	text-decoration:none;
+	color:#FFF;
+}
+
+a:hover{
+	background:#396;
+	color:#000;
+	
+}
+
+#leftbox{
+	height:500px;
+	width:250px;
+	margin:10PX;
+	border-color:#0F0;
+}
+
+#leftbox #head1{
+	background:#BDBDBD;
+	height:40px;
+	width:250px;
+	margin:0PX;
+}
+
+p{
+	margin-top:20px;
+	color:#FFF;
+}
+
+#leftbox #head2{
+	background:#BDBDBD;
+	height:40px;
+	width:250px;
+	margin-top:290PX;
+}
+
+.mainbox #container1{
+	/*background:#0F0;*/
+	height:500px;
+	width:740px;
+	float:right;
+	margin-top:-510px;
+	margin-right:20px;
+	text-align:justify;
+}
+
+.mainbox #container1 h1{
+	color:#FFF;
+	font:Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+
+
+.mainbox #container1 #img{
+	height:150px;
+	width:400px;
+	/*background:#00C;*/
+	border-color:#FFF;
+	border-style:double;
+	margin-top:10px;
+	float:right;
+	margin-right:150px;
+}
+
+.mainbox #container1 #img img{
+	height:140px;
+	width:390px;
+	border-color:#FFF;
+	float:right;
+	margin-right:5px;
+	margin-top:5px;
+	
+}
+
+
+.mainbox footer{
+	height:500px;
+	width:inherit;
+	background:#060;
+}
+
+
+
+
+
+
+
